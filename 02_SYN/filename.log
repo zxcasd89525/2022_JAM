@@ -1,0 +1,373 @@
+
+                           Design Compiler Graphical 
+                                 DC Ultra (TM)
+                                  DFTMAX (TM)
+                              Power Compiler (TM)
+                                 DesignWare (R)
+                                 DC Expert (TM)
+                               Design Vision (TM)
+                               HDL Compiler (TM)
+                               VHDL Compiler (TM)
+                                  DFT Compiler
+                               Design Compiler(R)
+
+                 Version Q-2019.12 for linux64 - Nov 26, 2019 
+
+                    Copyright (c) 1988 - 2019 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+Initializing...
+Initializing gui preferences from file  /home/t107360216/.synopsys_dv_prefs.tcl
+#Read All Files
+read_file -format verilog  JAM.v
+Loading db file '/home/cell_lib/CBDK_IC_Contest_v2.5/SynopsysDC/db/slow.db'
+Loading db file '/usr/cad/synopsys/synthesis/cur/libraries/syn/dw_foundation.sldb'
+Loading db file '/usr/cad/synopsys/synthesis/cur/libraries/syn/gtech.db'
+Loading db file '/usr/cad/synopsys/synthesis/cur/libraries/syn/standard.sldb'
+  Loading link library 'slow'
+  Loading link library 'gtech'
+Loading verilog file '/home/t107360216/Desktop/qiyou/2022_JAM/JAM.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /home/t107360216/Desktop/qiyou/2022_JAM/JAM.v
+
+Statistics for case statements in always block at line 37 in file
+	'/home/t107360216/Desktop/qiyou/2022_JAM/JAM.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            38            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+	in routine JAM line 31 in file
+		'/home/t107360216/Desktop/qiyou/2022_JAM/JAM.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     c_state_reg     | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine JAM line 48 in file
+		'/home/t107360216/Desktop/qiyou/2022_JAM/JAM.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   list_index_reg    | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine JAM line 55 in file
+		'/home/t107360216/Desktop/qiyou/2022_JAM/JAM.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    sortlist_reg     | Flip-flop |  12   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    sortlist_reg     | Flip-flop |  12   |  Y  | N  | N  | Y  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine JAM line 79 in file
+		'/home/t107360216/Desktop/qiyou/2022_JAM/JAM.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   directions_reg    | Flip-flop |   8   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine JAM line 105 in file
+		'/home/t107360216/Desktop/qiyou/2022_JAM/JAM.v'.
+===========================================================================
+|    Register Name    | Type  | Width | Bus | MB | AR | AS | SR | SS | ST |
+===========================================================================
+|    max_index_reg    | Latch |   3   |  Y  | N  | N  | N  | -  | -  | -  |
+===========================================================================
+
+Inferred memory devices in process
+	in routine JAM line 161 in file
+		'/home/t107360216/Desktop/qiyou/2022_JAM/JAM.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|        W_reg        | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine JAM line 172 in file
+		'/home/t107360216/Desktop/qiyou/2022_JAM/JAM.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    cost_sum_reg     | Flip-flop |  10   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine JAM line 179 in file
+		'/home/t107360216/Desktop/qiyou/2022_JAM/JAM.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    cost_min_reg     | Flip-flop |  10   |  Y  | N  | N  | Y  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine JAM line 185 in file
+		'/home/t107360216/Desktop/qiyou/2022_JAM/JAM.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     MinCost_reg     | Flip-flop |  10   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine JAM line 191 in file
+		'/home/t107360216/Desktop/qiyou/2022_JAM/JAM.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   MatchCount_reg    | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine JAM line 200 in file
+		'/home/t107360216/Desktop/qiyou/2022_JAM/JAM.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      Valid_reg      | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Statistics for MUX_OPs
+======================================================
+| block name/line  | Inputs | Outputs | # sel inputs |
+======================================================
+|      JAM/67      |   8    |    3    |      3       |
+|      JAM/67      |   8    |    1    |      3       |
+|      JAM/92      |   8    |    1    |      3       |
+|      JAM/93      |   8    |    1    |      3       |
+|      JAM/94      |   8    |    1    |      3       |
+|      JAM/95      |   8    |    1    |      3       |
+|      JAM/97      |   8    |    1    |      3       |
+|      JAM/98      |   8    |    1    |      3       |
+|      JAM/99      |   8    |    1    |      3       |
+|     JAM/100      |   8    |    1    |      3       |
+|     JAM/168      |   8    |    3    |      3       |
+======================================================
+Presto compilation completed successfully.
+Current design is now '/home/t107360216/Desktop/qiyou/2022_JAM/JAM.db:JAM'
+Loaded 1 design.
+Current design is 'JAM'.
+JAM
+#read_file -format sverilog  JAM.v
+current_design JAM
+Current design is 'JAM'.
+{JAM}
+link
+
+  Linking design 'JAM'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  JAM                         /home/t107360216/Desktop/qiyou/2022_JAM/JAM.db
+  slow (library)              /home/cell_lib/CBDK_IC_Contest_v2.5/SynopsysDC/db/slow.db
+  dw_foundation.sldb (library) /usr/cad/synopsys/synthesis/cur/libraries/syn/dw_foundation.sldb
+
+1
+#Setting Clock Constraints
+source -echo -verbose JAM.sdc
+# operating conditions and boundary conditions #
+set cycle 10.0
+10.0
+create_clock -name CLK  -period $cycle   [get_ports  CLK] 
+1
+set_dont_touch_network      [all_clocks]
+1
+set_fix_hold                [all_clocks]
+1
+set_clock_uncertainty  0.1  [all_clocks]
+1
+set_clock_latency      0.5  [all_clocks]
+1
+set_ideal_network           [get_ports CLK]
+1
+#Don't touch the basic env setting as below
+set_input_delay  0   -clock CLK [remove_from_collection [all_inputs] [get_ports CLK]] -clock_fall
+1
+set_output_delay 0    -clock CLK [all_outputs]  -clock_fall
+1
+set_load         1   [all_outputs]
+1
+set_drive        0.1   [all_inputs]
+1
+set_operating_conditions -max_library slow -max slow
+Using operating conditions 'slow' found in library 'slow'.
+1
+set_wire_load_model -name tsmc13_wl10 -library slow                        
+1
+set_max_fanout 20 [all_inputs]
+1
+1
+check_design
+ 
+****************************************
+check_design summary:
+Version:     Q-2019.12
+Date:        Wed Mar  1 22:09:25 2023
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Cells                                                               6
+    Cells do not drive (LINT-1)                                     6
+--------------------------------------------------------------------------------
+
+Warning: In design 'JAM', cell 'C2716' does not drive any nets. (LINT-1)
+Warning: In design 'JAM', cell 'C2779' does not drive any nets. (LINT-1)
+Warning: In design 'JAM', cell 'B_230' does not drive any nets. (LINT-1)
+Warning: In design 'JAM', cell 'C3008' does not drive any nets. (LINT-1)
+Warning: In design 'JAM', cell 'C3010' does not drive any nets. (LINT-1)
+Warning: In design 'JAM', cell 'C3024' does not drive any nets. (LINT-1)
+1
+set high_fanout_net_threshold 0
+0
+uniquify
+1
+set_fix_multiple_port_nets -all -buffer_constants [get_designs *]
+1
+#Synthesis all design
+compile -map_effort high -area_effort high
+Information: Checking out the license 'DesignWare'. (SEC-104)
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | Q-2019.12-DWBB_201912.0 |     *     |
+| Licensed DW Building Blocks        | Q-2019.12-DWBB_201912.0 |     *     |
+============================================================================
+
+
+Information: There are 6 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'JAM'
+Information: Added key list 'DesignWare' to design 'JAM'. (DDB-72)
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Implementation Selection
+  ----------------------------------
+  Processing 'JAM_DW01_add_0'
+
+  Beginning Mapping Optimizations  (High effort)
+  -------------------------------
+  Mapping Optimization (Phase 1)
+
+                                  TOTAL                                                  
+   ELAPSED            WORST NEG   SETUP    DESIGN                              MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT             COST    
+  --------- --------- --------- --------- --------- ------------------------- -----------
+    0:00:04   18410.0      0.00       0.0      48.0                                0.00  
+    0:00:04   18410.0      0.00       0.0      48.0                                0.00  
+    0:00:04   18410.0      0.00       0.0      48.0                                0.00  
+    0:00:04   18410.0      0.00       0.0      48.0                                0.00  
+    0:00:04   18410.0      0.00       0.0      48.0                                0.00  
+    0:00:05    9668.4      0.07       0.1      40.3                                0.00  
+    0:00:05    9575.0      0.00       0.0      40.3                                0.00  
+    0:00:05    9571.6      0.00       0.0      40.3                                0.00  
+    0:00:05    9571.6      0.00       0.0      40.3                                0.00  
+    0:00:05    9571.6      0.00       0.0      40.3                                0.00  
+    0:00:05    9571.6      0.00       0.0      40.3                                0.00  
+    0:00:05    9571.6      0.00       0.0      40.3                                0.00  
+    0:00:05    9588.6      0.00       0.0       0.1                                0.00  
+    0:00:05    9590.3      0.00       0.0       0.0                                0.00  
+    0:00:05    9590.3      0.00       0.0       0.0                                0.00  
+    0:00:05    9590.3      0.00       0.0       0.0                                0.00  
+    0:00:05    9590.3      0.00       0.0       0.0                                0.00  
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                                  
+   ELAPSED            WORST NEG   SETUP    DESIGN                              MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT             COST    
+  --------- --------- --------- --------- --------- ------------------------- -----------
+    0:00:05    9590.3      0.00       0.0       0.0                                0.00  
+    0:00:05    9590.3      0.00       0.0       0.0                                0.00  
+    0:00:06    9306.8      0.00       0.0      18.3                                0.00  
+
+
+  Beginning Design Rule Fixing  (max_transition)  (max_capacitance)
+  ----------------------------
+
+                                  TOTAL                                                  
+   ELAPSED            WORST NEG   SETUP    DESIGN                              MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT             COST    
+  --------- --------- --------- --------- --------- ------------------------- -----------
+    0:00:06    9306.8      0.00       0.0      18.3                                0.00  
+    0:00:06    9403.6      0.00       0.0       0.0                                0.00  
+
+
+  Beginning Area-Recovery Phase  (cleanup)
+  -----------------------------
+
+                                  TOTAL                                                  
+   ELAPSED            WORST NEG   SETUP    DESIGN                              MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT             COST    
+  --------- --------- --------- --------- --------- ------------------------- -----------
+    0:00:06    9403.6      0.00       0.0       0.0                                0.00  
+    0:00:06    9403.6      0.00       0.0       0.0                                0.00  
+    0:00:06    9250.8      0.00       0.0       0.0                                0.00  
+    0:00:06    9174.4      0.00       0.0       0.0                                0.00  
+    0:00:06    9155.8      0.00       0.0       0.0                                0.00  
+    0:00:06    9142.2      0.00       0.0       0.0                                0.00  
+    0:00:06    9135.4      0.00       0.0       0.0                                0.00  
+    0:00:06    9135.4      0.00       0.0       0.0                                0.00  
+    0:00:06    9135.4      0.00       0.0       0.0                                0.00  
+    0:00:06    9128.6      0.00       0.0       0.0                                0.00  
+    0:00:06    9128.6      0.00       0.0       0.0                                0.00  
+    0:00:06    9128.6      0.00       0.0       0.0                                0.00  
+    0:00:06    9128.6      0.00       0.0       0.0                                0.00  
+    0:00:06    9128.6      0.00       0.0       0.0                                0.00  
+    0:00:06    9128.6      0.00       0.0       0.0                                0.00  
+    0:00:06    9128.6      0.00       0.0       0.0                                0.00  
+Loading db file '/home/cell_lib/CBDK_IC_Contest_v2.5/SynopsysDC/db/slow.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+1
+#compile -map_effort high -area_effort high -inc
+#compile_ultra
+write -format ddc     -hierarchy -output "JAM_syn.ddc"
+Writing ddc file 'JAM_syn.ddc'.
+1
+write_sdf -version 1.0  JAM_syn.sdf
+Information: Annotated 'cell' delays are assumed to include load delay. (UID-282)
+Information: Writing timing information to file '/home/t107360216/Desktop/qiyou/2022_JAM/JAM_syn.sdf'. (WT-3)
+Information: Updating design information... (UID-85)
+1
+write -format verilog -hierarchy -output JAM_syn.v
+Writing verilog file '/home/t107360216/Desktop/qiyou/2022_JAM/JAM_syn.v'.
+1
+report_area > area.log
+report_timing > timing.log
+report_qor   >  JAM_syn.qor
+design_vision> Current design is 'JAM'.
+4.1
+Current design is 'JAM'.
+design_vision> design_vision> exit
+
+Thank you...
